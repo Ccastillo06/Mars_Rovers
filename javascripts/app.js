@@ -24,7 +24,7 @@ var grid = [
 // Instructions given to the user at the start of the script.
 console.log("Rover starts facing " + roverObj.direction + " in coordinates (" + roverObj.x + "," + roverObj.y + ")");
 console.log("To start moving, use the function command('stringInHere'), which will take a string as argument where you'll use 'f' to move forward, 'b' to move backwards, 'r' to turn right and 'l' to turn left.");
-console.log("For example command('rffrf') ends in (2,-1).");
+console.log("For example command('rffrf') ends in (2,1).");
 console.log("If you want to create obstacles in the grid, use the function createObstacle(n) and it will create n random obstacles.");
 console.log("If you want to add an aditional Rovers, use the function createRovers(a,b) where (a,b) are the coordinates of the new Rovers. They will be facing N like the original.");
 console.log("If you want to move the new Rovers, use commandOther('stringHere',n) where the string are the instructions and n is the number of the Rovers.");
